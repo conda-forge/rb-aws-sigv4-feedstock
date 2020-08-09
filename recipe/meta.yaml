@@ -1,5 +1,5 @@
 {% set name = "aws-sigv4" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.4" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 9a09561befb5c93b32af6e0fefb85148cfcdd75db418b348dc94cbce4a44ccb5
+  sha256: 551f9258a73d8816893471abb949ccd1b2b5d398d69368edd61c3ea4f35d2d55
 
 build:
   noarch: generic
